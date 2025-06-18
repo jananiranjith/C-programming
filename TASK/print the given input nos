@@ -1,8 +1,5 @@
-#include <stdio.h>
-#include <string.h>
-#include <math.h>
-#include <stdlib.h>
-
+data types -11 to 20
+11. print given nos
 int main() {
 
     Enter your code here. Read input from STDIN. Print output to STDOUT */ 
