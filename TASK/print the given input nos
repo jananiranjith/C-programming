@@ -10,3 +10,120 @@ int main() {
     printf("%d",sum);
     return 0;
 }
+12. print product 
+
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main() {
+
+    /* Enter your code here. Read input from STDIN. Print output to STDOUT */   
+    int a,b;
+    scanf("%d %d",&a,&b);
+    printf("%d",a*b);
+    return 0;
+}
+
+13. area of circle
+
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main() {
+
+    /* Enter your code here. Read input from STDIN. Print output to STDOUT */ 
+    int r;
+
+    scanf("%d",&r);
+    float pi,area;
+    pi=3.14;
+    scanf("%f",&pi);
+    area=pi*r*r;
+    printf("%.2f",area);
+    return 0;
+}
+
+14. print ASCII value
+
+#include <cmath>
+#include <cstdio>
+#include <vector>
+#include <iostream>
+#include <algorithm>
+using namespace std;
+
+
+int main() {
+    /* Enter your code here. Read input from STDIN. Print output to STDOUT */  
+    int a;
+    scanf("%d",&a);
+    if(a>=65 && a<=92) {
+        printf ("%c",a);
+        }
+    else if(a>=95 && a<=122)
+    {
+        printf ("%c",a);
+        }
+    else {
+        printf ("invalid");
+        }
+    
+        
+    return 0;
+}
+
+15. print closest integer value 
+#include <cmath>
+#include <cstdio>
+#include <vector>
+#include <iostream>
+#include <algorithm>
+using namespace std;
+
+
+int main() {
+    /* Enter your code here. Read input from STDIN. Print output to STDOUT */   
+    float a;
+    scanf ("%f",&a);
+    printf ("%d",(int)round(a));
+    return 0;
+}
+
+16. print value with 17wisth spaces
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main() {
+
+    /* Enter your code here. Read input from STDIN. Print output to STDOUT */  
+    int a,b;
+    scanf("%d %d",&a,&b);
+    printf("%d",a);
+    printf("%017d",b);
+    return 0;
+}
+17. print octal or hexadecimla to decimal
+
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main() {
+
+    /* Enter your code here. Read input from STDIN. Print output to STDOUT */  
+    char str[100];
+    scanf("%s", str);
+    long decimal=strtol(str,NULL,0);
+    printf("%ld",decimal);
+    return 0;
+}
+
+
+
