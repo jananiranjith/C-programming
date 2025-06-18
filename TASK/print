@@ -1,0 +1,12 @@
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main() {
+
+    char a;
+    printf("Let's learn 'C' together with \"SEED\" Team");
+    scanf("%c",&a);
+    return 0;
+}
