@@ -1,0 +1,22 @@
+
+
+#include <stdio.h>
+
+int main()
+{
+    int val=145,sum=0;
+    while(val>0) 
+    {
+    int pro=1;
+    int num=val%10;
+   
+   for(int i=num;i>0;i--) {
+       pro*=i;
+   }
+   val/=10;
+   sum+=pro;
+    }
+    
+   printf("%d",sum);
+   return 0;
+}
