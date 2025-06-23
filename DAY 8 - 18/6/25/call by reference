@@ -1,0 +1,22 @@
+
+#include <stdio.h>
+
+int main()
+{
+    void hii(int *pt) {
+        *pt +=1;
+    }
+    void hello(char *pt); {
+        *pt+=1;
+    }
+    
+    int main() {
+        int a=10;
+        char ch='D';
+        hii(&a);
+        hello(&ch);
+        printf("%d",a);
+        printf("%c",ch);
+    }
+    return 0;a
+} 
