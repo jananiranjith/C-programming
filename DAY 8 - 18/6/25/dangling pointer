@@ -1,0 +1,21 @@
+#include <stdio.h>
+#include<stdlib.h>
+
+
+int main()
+{
+  
+  //dangling pointer
+  int *dptr=malloc(sizeof(int));
+  printf("%p\n",dptr);
+  *dptr=40;
+  printf("%p\n",dptr);
+  printf("%d\n",*dptr);
+  free(dptr);
+  dptr=NULL;
+  printf("%d\n",*dptr);
+  printf("%p\n",dptr);
+  
+
+    return 0;
+}
